@@ -1,0 +1,102 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@media screen and (min-width: 1800px) {
+    html{
+        font-size: 23px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    html{
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    html{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    html{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    html{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 499px) {
+    html{
+        font-size: 12px;
+    }
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 20px;
+}
+
+h1,
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+.site-header {
+    border-bottom: 3px solid black;
+}
+
+.site-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 10px 0;
+}
+
+img {
+    border: 2px solid black;
+    background-color: white;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 255);
+    padding: 5px;
+}
+
+.first-image {
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+.blockquote-container {
+    display: flex;
+}
+
+.blockquote-container-text {
+    flex-basis: 50%;
+}
+
+blockquote {
+    border-left: 2px solid lightgray;
+    padding-left: 20px;
+    font-style: italic;
+    color: rgb(180, 179, 179);
+    flex-basis: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+figcaption {
+    text-align: right;
+    padding: 20px;
+}
+
+.image-two {
+    float: left;
+    margin: 5px 30px 10px 0;
+}
