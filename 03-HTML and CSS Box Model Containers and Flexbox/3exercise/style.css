@@ -1,0 +1,14 @@
+.container {
+    border: 2px solid green;
+}
+
+.content-wrapper {
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.content-wrapper>* {
+    border: 2px solid blue;
+    padding: 20px;
+    margin: 20px 80px;
+}
