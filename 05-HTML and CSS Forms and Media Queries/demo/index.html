@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/submit" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" name="username" placeholder="Username" id="username">
+
+        <input type="radio" name="gender" value="Male">
+
+        <input type="checkbox" name="subscribe" value="newsletter">
+        <button type="submit">Submit!</button>
+
+        <fieldset>
+            <legend>Choose your favorite monster</legend>
+            <input type="radio" id="radioButton" name="monster" value="Kraken">
+            <label for="radioButton">Kraken</label>
+            <input type="radio" id="radioButton" name="monster" value="Chimera">
+            <label for="radioButton">Chimera</label>
+            <input type="radio" id="radioButton" name="monster" value="Minotaur">
+            <label for="radioButton">Minotaur</label>
+        </fieldset>
+    </form>
+</body>
+</html>

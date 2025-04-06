@@ -1,0 +1,59 @@
+HTML and CSS Forms and Media Queries
+-------------------------------------
+1. Media Queries - когато зададем дадено условие, когато се променя резолюцията може да променяме различни неща
+
+@media (условие max-width: 600px), (orientation-landscape(portrait))
+{
+	къде искаме например: 
+	body {
+		background-color: blue;
+	}
+}
+
+media - може да се прилага в <link> тага, <source> тага
+
+<link rel="stylesheet" href="style.css" media="(условие)">
+<source srcset="image.jpg" media="(условие)">
+
+Media Types:
+screen, print, all, speech
+
+@media screen {
+	body{
+		background-color: lightblue;
+	}
+}
+
+@media print {
+	header, footer{
+	display: none;
+}
+}
+
+2.Logical operators - and, not, only, (,) като в C#
+*and - всички да отговарят на това условие
+*not - ще се прилага върху всички устройства, които не отговарят на това условие
+*only - само едно условие
+*, - поне 1 условие трябва да е вярно и го прилага
+
+3.HTML Forms
+3.1.Elements
+*label - връзване на тип 
+<label for="username">Username:</label>
+        <input type="text" name="username" placeholder="Username" id="username">
+
+*input - text, password, radio, checkbox, button, color, email, file, image, color, number, hidden
+*textarea - you can add more text to this field
+*select & option - dropdown menu with options
+*button - type = "reset" onclick="alert('All field were cleared')"
+*fieldset - добавяме поле с няколко опции
+
+
+
+
+
+
+
+
+
+

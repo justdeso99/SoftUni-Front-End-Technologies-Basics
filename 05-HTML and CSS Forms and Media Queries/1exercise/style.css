@@ -1,0 +1,42 @@
+body{
+    background-color: lightgray;
+}
+
+.site {
+    font-size: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.site > *{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1 1 auto;
+}
+
+.site > header,
+.site > footer{
+    flex: 1 1 100%;
+}
+
+.site > main {
+    flex-grow: 7;
+}
+
+.site > aside {
+    flex: 3;
+}
+
+@media (max-width: 1100px){
+    .site{
+        flex-direction: column;
+    }
+}
