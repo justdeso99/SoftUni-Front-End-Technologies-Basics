@@ -1,0 +1,31 @@
+header {
+    border-bottom: 2px solid black;
+}
+
+h1 {
+    float: left;
+    font-size: 40px;
+}
+
+nav {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    padding: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+ul {
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+body {
+    margin-left: 20px;
+}
